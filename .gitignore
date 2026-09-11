@@ -1,3 +1,6 @@
 # Typora / MarkText temporary images
 # Images are managed by external image repository
 **/assets/
+
+# .jsonl local data files, not uploaded
+*.jsonl
