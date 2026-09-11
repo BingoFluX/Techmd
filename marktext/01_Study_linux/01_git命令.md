@@ -79,7 +79,7 @@ git push
 git push -u origin wb_test
 
 #首次推送/后续推送？
-git remote add origin https://github.com/bingoteng/test.git
+git remote add origin https://github.com/BingoFluX/test.git
 #输入远程仓库名
 #个人密钥
 #拉取
@@ -138,7 +138,7 @@ github->settings->SSH and GPG keys->New SSH keys->crtl +v
 ```
 
 首次http推送
-![image-20260723004456645](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260723_00-45_ab68e180d103b309215c38dc19f12bde.png)
+![image-20260723004456645](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260723_00-45_ab68e180d103b309215c38dc19f12bde.png)
 
 <u></u> 
 

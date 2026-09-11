@@ -71,7 +71,7 @@ git commit -m "首次提交笔记文件"
 
 ```bash
 # 添加远程仓库，origin是远程仓库别名
-git remote add origin https://github.com/bingoteng/Techmd.git
+git remote add origin https://github.com/BingoFluX/Techmd.git
 # 查看已绑定的远程仓库
 git remote -v
 # 更换远程仓库地址
@@ -109,7 +109,7 @@ ssh -T git@github.com
 ### 3. SSH克隆仓库
 
 ```
-git clone git@github.com:bingoteng/Techmd.git
+git clone git@github.com:BingoFluX/Techmd.git
 ```
 
 ### SSH典型报错：`Permission denied (publickey)`
@@ -129,7 +129,7 @@ git clone git@github.com:bingoteng/Techmd.git
 
 ```
 git init
-git remote add origin git@github.com:bingoteng/Techmd.git
+git remote add origin git@github.com:BingoFluX/Techmd.git
 git add .
 git commit -m "重新初始化仓库"
 git push -u origin main -f
@@ -177,7 +177,7 @@ git config --global --unset https.proxy
 4. 关联GitHub远程仓库（仅首次绑定执行）
    
    ```
-   git remote add origin git@github.com:bingoteng/Techmd.git
+   git remote add origin git@github.com:BingoFluX/Techmd.git
    # 校验远程是否绑定成功
    git remote -v
    ```
@@ -233,7 +233,7 @@ git config --global --unset https.proxy
 1. HTTPS推送报连接重置：切换SSH远程地址
    
    ```
-   git remote set-url origin git@github.com:bingoteng/Techmd.git
+   git remote set-url origin git@github.com:BingoFluX/Techmd.git
    ```
 
 2. 推送提示rejected、需要先拉取
@@ -247,7 +247,7 @@ git config --global --unset https.proxy
    
    ```
    git init
-   git remote add origin git@github.com:bingoteng/Techmd.git
+   git remote add origin git@github.com:BingoFluX/Techmd.git
    git add .
    git commit -m "重建笔记仓库"
    git push -u origin main -f

@@ -20,7 +20,7 @@
   - `4K(UHD)`：3840×2160
   - `8K`：7680×4320
 
-<img src="https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_02-00_b3e87a8ff3a2aa5ea1356cb6416d4939.png" alt="image-20260411194907061" style="zoom: 80%;" />
+<img src="https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_02-00_b3e87a8ff3a2aa5ea1356cb6416d4939.png" alt="image-20260411194907061" style="zoom: 80%;" />
 
 ### 2. RGB 像素格式
 
@@ -55,9 +55,9 @@
 
 `RGB LCD`的数据传输时序分为**行时序**和**帧时序**，流程如下：
 
-<img src="https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_02-00_57e24bee6f3bcf08c2c92f9609ef9613.png" alt="image-20250818215008395" style="zoom: 80%;" />
+<img src="https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_02-00_57e24bee6f3bcf08c2c92f9609ef9613.png" alt="image-20250818215008395" style="zoom: 80%;" />
 
-<img src="https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_02-00_3e43d7994cc8d887fadfdefaf9d9f0f5.png" alt="image-20250818215045610" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_02-00_3e43d7994cc8d887fadfdefaf9d9f0f5.png" alt="image-20250818215045610" style="zoom:80%;" />
 
 1. **帧起始**：  
    - 拉低`VSYNC`（垂直同步信号），表示新一帧开始。  

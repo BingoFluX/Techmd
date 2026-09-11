@@ -249,7 +249,7 @@ signal(SIGIO, sigio_handler);
 
 ## 三、IO多路复用三剑客：select / poll / epoll
 
-![多路复用含义图解-Telephony_multiplexer_system](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-34_eb771c933aba04238980b504a53f59a2.gif)
+![多路复用含义图解-Telephony_multiplexer_system](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-34_eb771c933aba04238980b504a53f59a2.gif)
 
 ### 3.1 核心思想对比
 

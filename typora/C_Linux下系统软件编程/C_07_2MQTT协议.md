@@ -709,7 +709,7 @@ mosquitto_sub -h 192.168.1.100 -t "sensor/#" -v  # 查看设备上报数据
 
 ### 8.2.MQTT协议数据包结构：
 
-<img src="https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-32_6d99fe32e4dd4791b3d62a053164d0f2.png" alt="image-20251020205133734" style="zoom:25%;" />
+<img src="https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-32_6d99fe32e4dd4791b3d62a053164d0f2.png" alt="image-20251020205133734" style="zoom:25%;" />
 
 1. 固定头（Fixed header）。存在于所有MQTT数据包中，表示（Packer Type + Flags）数据包类型及数据包的分组类标识。
 

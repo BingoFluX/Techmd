@@ -18,8 +18,8 @@ Techmd
 
 - **Techmd（Git）**：只管理 Markdown 文档，图片引用一律使用图床 CDN URL。
 - **本地 `assets/`**：Typora/MarkText 编辑时的临时图片缓存，**不纳入 Git**（已被 `.gitignore` 的 `**/assets/` 忽略）。
-- **`bingoteng/Photos`**：独立图床仓库，最终图片存放地，通过 jsDelivr CDN 访问：
-  `https://cdn.jsdelivr.net/gh/bingoteng/Photos/Linux/<文件名>`
+- **`BingoFluX/Photos`**：独立图床仓库，最终图片存放地，通过 jsDelivr CDN 访问：
+  `https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Linux/<文件名>`
 
 ### 一次笔记编辑流程
 
@@ -33,9 +33,9 @@ Techmd
 1. 扫描该笔记的图片引用，注意同时检查两种形式：
    - Markdown：`![alt](assets/xxx.png)`
    - HTML：`<img src="assets/xxx.png">`（最容易遗漏）
-2. **只上传“引用到的图片”**到图床（当前 PicGo 已配置为 `bingoteng/Photos/Linux/`），不要把整个 assets 文件夹上传。
+2. **只上传“引用到的图片”**到图床（当前 PicGo 已配置为 `BingoFluX/Photos/Linux/`），不要把整个 assets 文件夹上传。
 3. 将本地引用替换为 CDN URL，保持内容结构不变：
-   - `![alt](assets/xxx.png)` → `![alt](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Linux/xxx.png)`
+   - `![alt](assets/xxx.png)` → `![alt](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Linux/xxx.png)`
 4. 上传后抽查 1–2 个 URL 确认返回 200。
 5. 本地 `assets/` 缓存可保留（方便以后改图），确认无其他笔记引用后可手动清理。
 
@@ -59,5 +59,5 @@ Techmd
 
 ## 遗留待办（一次性）
 
-- `bingoteng/image` 历史失效引用 11 处 + 本地路径引用 27 处：需从 Windows 端 `D:/Typroa_notes/99-Store_photo_addr/` 取回源文件后一次性迁移。
+- `BingoFluX/image` 历史失效引用 11 处 + 本地路径引用 27 处：需从 Windows 端 `D:/Typroa_notes/99-Store_photo_addr/` 取回源文件后一次性迁移。
 - `typora/Y_辅助文档/` 的 PDF 资料（约 53 MB）后续考虑迁移出仓库（独立资料库 / Git LFS）。

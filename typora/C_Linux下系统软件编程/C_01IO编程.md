@@ -110,7 +110,7 @@ hello
 
 #### 1.原理
 
-![image-20260328164806361](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-51_816f057c746fa8c8722b8bd506501740.png)
+![image-20260328164806361](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-51_816f057c746fa8c8722b8bd506501740.png)
 
 - **标准库函数**（标准 IO）是对系统调用的**封装**。
   - 它在用户态维护了一个**缓冲区**，减少系统调用（陷入内核）的次数，从而提高效率。
@@ -324,7 +324,7 @@ Linux 权限分为三组：**所有者 (User)**、**组 (Group)**、**其他人 
    - 系统调用，Linux内核提供的函数接口
    - 无缓冲的IO
 
-![image-20260328172907989](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-51_8d8865637eefe65c21188f4d4815bf1f.png)
+![image-20260328172907989](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-51_8d8865637eefe65c21188f4d4815bf1f.png)
 
 ```c
 // 获取 FILE* 对应的文件描述符

@@ -6,7 +6,7 @@
 
 `CAN`（Controller Area Network）: 中文叫**控制器局域网**。是一种**多主、广播型、差分同步串行**通信总线协议，由德国BOSCH公司开发，ISO标准化为`ISO 11898`。主要用于**高可靠性、强抗干扰、中长距离**的工业与车载通信，如汽车`ECU`互联、工业控制、机器人节点通信。该总线允许多个节点同时挂载，无绝对主从限制，依靠**报文ID优先级**进行总线仲裁。
 
-![image-20260412195049594](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_02-00_1f518401b9dd2d762dc2d55fac0508e4.png)
+![image-20260412195049594](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_02-00_1f518401b9dd2d762dc2d55fac0508e4.png)
 
 **特点： 参考文档：[CAN.pdf](..\77-辅助文档\CAN.pdf) **
 
@@ -81,7 +81,7 @@
 
 ## 3. `CAN`数据帧结构与通信时序
 
-![image-20260412194433715](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_02-00_b85dbfabcc4d813411b41918684a702b.png)
+![image-20260412194433715](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_02-00_b85dbfabcc4d813411b41918684a702b.png)
 
 - 节点监听总线空闲后，发送`SOF（显性）`
 - 发送**仲裁码**（11位标准ID 或 29位扩展ID + 1位`RTR` + 1位`IDE` + 1位`r0`）

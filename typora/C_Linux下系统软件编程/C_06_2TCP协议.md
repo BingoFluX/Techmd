@@ -52,7 +52,7 @@
 
 ### 2.1 C/S模式（Client/Server）- TCP专属流程
 
-![image-20260329130557967](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-23_c00d4a3387656171e538a43c2d7e972c.png)
+![image-20260329130557967](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-23_c00d4a3387656171e538a43c2d7e972c.png)
 
 ```c
 📐 架构：专用客户端 ↔ 专用服务器
@@ -296,11 +296,11 @@ ssize_t recv_line(int sock, char *buf, size_t max_len) {
 
 ## 四、TCP报文头结构详解
 
-![image-20260329122511213](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-23_8bde994539054d77486f8d5836807b95.png)
+![image-20260329122511213](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-23_8bde994539054d77486f8d5836807b95.png)
 
-![image-20260329122644800](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-23_f61946228782fe7667f9dc16285932e2.png)
+![image-20260329122644800](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-23_f61946228782fe7667f9dc16285932e2.png)
 
-![image-20260329123046365](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-23_ef953f9ce284fcc049a23f2dec7af2a0.png)
+![image-20260329123046365](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-23_ef953f9ce284fcc049a23f2dec7af2a0.png)
 
 ### 4.1 关键字段解析
 
@@ -340,7 +340,7 @@ ssize_t recv_line(int sock, char *buf, size_t max_len) {
 
 ### 5.1 三次握手（建立连接）
 
-![image-20260329125033437](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-23_52e4fd60b5a97d44d0e92c4ce56cde0f.png)
+![image-20260329125033437](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-23_52e4fd60b5a97d44d0e92c4ce56cde0f.png)
 
 ```
 📌 关键问题：
@@ -352,7 +352,7 @@ ssize_t recv_line(int sock, char *buf, size_t max_len) {
 
 ### 5.2 四次挥手（断开连接）
 
-![image-20260329130215326](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-23_b7479611cac3682597591dadc743b4a7.png)
+![image-20260329130215326](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-23_b7479611cac3682597591dadc743b4a7.png)
 
 ```
 - TIME_WAIT状态持续2MSL（1-4分钟），期间端口无法复用

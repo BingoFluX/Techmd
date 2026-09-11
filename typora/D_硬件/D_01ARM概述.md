@@ -55,7 +55,7 @@
 
 * **控制单元(Control Unit)：** 指令解码和时序控制的核心。它解析当前指令，产生控制信号来协调寄存器、ALU、移位器、内存接口等部件的工作。
 
-  <img src="https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-54_b9a2c7fe950e32b5a60e3a84aca4a8f0.png" alt="image-20260314204001715" style="zoom:67%;" />
+  <img src="https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-54_b9a2c7fe950e32b5a60e3a84aca4a8f0.png" alt="image-20260314204001715" style="zoom:67%;" />
 
 
 
@@ -93,7 +93,7 @@ ARM处理器通常有**7种**工作模式：
             *   发生内存访问失败（预取指中止或数据中止）时进入。
         *   **未定义模式(Undefined - und)：**
             *   处理器遇到无法识别的指令时进入。
-*   ![image-20260314204200359](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-54_c94cf1cd27b7c444b8db3af97d1aaec6.png)
+*   ![image-20260314204200359](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-54_c94cf1cd27b7c444b8db3af97d1aaec6.png)
 *   **为什么需要多种模式？** 主要是为了提供**硬件级别的特权级隔离和异常处理支持**。用户程序在受限的用户模式下运行，操作系统内核或异常处理程序在特权模式下运行，拥有更高的权限访问硬件和关键资源。
 
 ## 5.**什么是异常向量表？**
@@ -117,7 +117,7 @@ ARM处理器通常有**7种**工作模式：
     *   `0x00000018`: **IRQ (普通中断)**
     *   `0x0000001C`: **FIQ (快速中断)**
     
-    ![image-20260314204238047](https://cdn.jsdelivr.net/gh/bingoteng/Photos/Typora/20260718_01-54_1e5f062cc2a1d28213dd212e45cebb08.png)
+    ![image-20260314204238047](https://cdn.jsdelivr.net/gh/BingoFluX/Photos/Typora/20260718_01-54_1e5f062cc2a1d28213dd212e45cebb08.png)
 *   **关键点：** 向量表的位置通常是固定的（低地址），但现代ARM处理器（如Cortex-A）通常可以通过配置系统控制寄存器(`SCTLR.V`)将其重定位到其他地址（如`0xFFFF0000`，高地址向量表）。向量表中的条目包含了处理异常的“第一跳”指令或地址。
 
 **当异常发生时，ARM内核会做哪些操作？**
