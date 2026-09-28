@@ -6,8 +6,8 @@ Markdown 知识笔记仓库（Typora / MarkText）。
 
 ```
 Techmd
-├── marktext/          # MarkText 笔记（含本地 assets 编辑缓存）
-├── typora/            # Typora 笔记（含本地 assets 编辑缓存）
+├── Linux/             # Linux 端笔记（MarkText，含本地 assets 编辑缓存）
+├── Window/            # Windows 端笔记（Typora，含本地 assets 编辑缓存）
 ├── README.md
 └── .gitignore
 ```
@@ -60,4 +60,4 @@ Techmd
 ## 遗留待办（一次性）
 
 - `BingoFluX/image` 历史失效引用 11 处 + 本地路径引用 27 处：需从 Windows 端 `D:/Typroa_notes/99-Store_photo_addr/` 取回源文件后一次性迁移。
-- `typora/Y_辅助文档/` 的 PDF 资料（约 53 MB）后续考虑迁移出仓库（独立资料库 / Git LFS）。
+- `Window/Y_辅助文档/` 的 PDF 资料（约 53 MB）后续考虑迁移出仓库（独立资料库 / Git LFS）。
